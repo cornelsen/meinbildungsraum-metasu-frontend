@@ -1,0 +1,9 @@
+<svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect class="background" width="104" height="104" rx="52"/>
+<path d="M70.2084 37.7909H33.7917V61.5118H70.2084V37.7909Z" stroke-width="1.5"/>
+<path d="M49.042 44.9072V54.3956L56.9587 49.6514L49.042 44.9072Z" stroke-width="1.5"/>
+<path d="M33 67.0466H39.5" stroke-width="1.5"/>
+<path d="M48.9999 67H71.4997" stroke-width="1.5"/>
+<path d="M46.2145 67.1047C46.2145 68.2675 45.2715 69.2094 44.1073 69.2094C42.943 69.2094 42 68.2675 42 67.1047C42 65.9418 42.943 65 44.1073 65C45.2715 65 46.2145 65.9418 46.2145 67.1047Z" stroke-width="1.5"/>
+<rect class="border" x="0.75" y="0.75" width="102.5" height="102.5" rx="51.25" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,116 @@
+<script setup>
+import { computed } from 'vue'
+import { useDisplay } from 'vuetify'
+import { service} from '@/helpers/api'
+import Button from '@/components/Button/Button.vue'
+import Modal from '@/components/Modal/Modal.vue'
+import CloseIcon from '@/assets/icons/Exit.svg'
+import { useI18n } from 'vue-i18n'
+
+const emit = defineEmits(['removed', 'error', 'update:modelValue'])
+const props = defineProps({
+  news: { type: Object, default: () => null },
+  modelValue: { type: Boolean, default: false }
+})
+
+const { locale } = useI18n()
+const { mdAndUp } = useDisplay()
+
+const dialogOpen = computed({
+  get () {
+    return props.modelValue
+  },
+  set (value) {
+    return emit('update:modelValue', value)
+  }
+})
+
+const closeDialog = () => {
+  dialogOpen.value = false
+}
+
+const deleteNews = async () => {
+  try {
+    await service.delete(`/news/${props.news.id}`)
+    emit('removed', props.news.id)
+  } catch (e) {
+    emit('error')
+    console.log('error %o', e)
+  }
+  closeDialog()
+}
+
+</script>
+
+<template>
+  <div>
+    <Modal
+      v-model="dialogOpen"
+      @update:modelValue="closeDialog"
+      :fullscreen="false"
+      :width="mdAndUp ? '800' : '343'"
+    >
+      <div class="remove-dialog">
+        <div class="flex justify-space-between justify-md-end pr-6 pt-6">
+          <div class="flex-1-1 text-center header-4 d-md-none justify-center pl-14">
+            {{ $t("admin.news.delete.title") }}
+          </div>
+          <button
+            class="link"
+            @click="closeDialog"
+            type="button"
+          >
+            <CloseIcon class="link black-icon" aria-hidden="true"/>
+            <span class="sr-only">{{ $t('modal.close') }}</span>
+          </button>
+        </div>
+        <div class="remove-dialog-content">
+          <div class="text-center header-4 mb-4 d-none d-md-block">
+            {{ $t("admin.news.delete.title") }}
+          </div>
+          <div class="text-center header-8 mb-0 mb-md-6">
+            {{ $t("admin.news.delete.prompt", {
+              title: locale === 'de' ? news.titleDe : news.titleEn
+            }) }}
+          </div>
+        </div>
+
+        <div class="flex justify-center align-center pb-6 pb-md-11">
+          <Button
+            @click="deleteNews"
+            class="mr-3 mr-md-13"
+            :text="$t('admin.news.delete.confirm')"
+            variant="black"
+            :compact="!mdAndUp"
+          />
+          <Button
+            @click="closeDialog"
+            :text="$t('admin.news.delete.cancel')"
+            variant="white"
+            :compact="!mdAndUp"
+          />
+        </div>
+
+      </div>
+    </Modal>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+  .remove-dialog {
+    background-color: #FFF;
+    color: $color-black;
+
+    &-content {
+      padding: 24px;
+    }
+  }
+
+  @media (max-width: $MAX-WIDTH-MOBILE) {
+    .remove-dialog {
+      &-content {
+        padding: 16px 24px 24px 24px;
+      }
+    }
+  }
+</style>

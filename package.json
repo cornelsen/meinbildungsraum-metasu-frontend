@@ -1,0 +1,47 @@
+{
+  "name": "metasu",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/ --ext .vue,.js",
+    "locales": "node scripts/locales.js",
+    "build:develop": "npm run locales && vite build --mode dev",
+    "build:staging": "npm run locales && vite build --mode staging",
+    "preview:staging": "vite preview --mode staging",
+    "preview:dev": "vite preview --mode dev"
+  },
+  "dependencies": {
+    "vue": "3.3.4",
+    "vue-i18n": "9.5.0",
+    "vue-router": "4.2.5",
+    "vue3-cookies": "1.0.6",
+    "vuetify": "3.5.3",
+    "vite": "3.2.7",
+    "vite-svg-loader": "4.0.0",
+    "@vitejs/plugin-vue": "3.2.0",
+    "@vitejs/plugin-legacy": "3.0.2",
+    "vite-plugin-vuetify": "1.0.2",
+    "@intlify/unplugin-vue-i18n": "0.8.2",
+    "@tiptap/extension-character-count": "2.1.11",
+    "@tiptap/extension-link": "2.1.11",
+    "@tiptap/pm": "2.1.11",
+    "@tiptap/starter-kit": "2.1.11",
+    "@tiptap/vue-3": "2.1.11",
+    "tiptap-extensions": "1.35.2",
+    "autoprefixer": "10.4.16",
+    "axios": "1.5.1",
+    "qs": "6.11.2",
+    "sass": "1.69.1",
+    "terser": "5.21.0",
+    "swiper": "9.4.1",
+    "croppie": "2.6.5"
+  },
+  "devDependencies": {
+    "eslint": "8.51.0",
+    "eslint-plugin-vue": "9.17.0"
+  }
+}

@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    src: url("/fonts/Manrope-200.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    src: url("/fonts/Manrope-300.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    src: url("/fonts/Manrope-400.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    src: url("/fonts/Manrope-500.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    src: url("/fonts/Manrope-700.woff2") format("woff2")
+}
+
+// --------- HEADERS ---------
+@media (min-width: $MIN-WIDTH-TABLET) {
+
+    %header-1 {
+        font-weight: $font-weight-extra-light;
+        font-size: 80px;
+        line-height: 104px;
+    }
+
+    %header-2 {
+        font-weight: $font-weight-light;
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    %header-3 {
+        font-weight: $font-weight-light;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    %header-4 {
+        font-weight: $font-weight-medium;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    %header-5 {
+        font-weight: $font-weight-light;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    %header-6 {
+        font-weight: $font-weight-normal;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    %header-7 {
+        font-weight: $font-weight-light;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    %header-8 {
+        font-weight: $font-weight-normal;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    %header-9 {
+        font-weight: $font-weight-medium;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    %header-10 {
+        font-weight: $font-weight-medium;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: $MAX-WIDTH-MOBILE) {
+    %header-sm-1 {
+        font-weight: $font-weight-normal;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    %header-sm-2 {
+        font-weight: $font-weight-normal;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    %header-sm-3 {
+        font-weight: $font-weight-normal;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    %header-sm-4 {
+        font-weight: $font-weight-normal;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    %header-sm-5 {
+        font-weight: $font-weight-light;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    %header-sm-6 {
+        font-weight: $font-weight-normal;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    %header-sm-7 {
+        font-weight: $font-weight-normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    %header-sm-8 {
+        font-weight: $font-weight-light;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    %header-sm-9 {
+        font-weight: $font-weight-bold;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    %header-sm-10 {
+        font-weight: $font-weight-bold;
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
+@mixin headers {
+    @for $font from 1 through 10 {
+        .header-#{$font} {
+            @extend %header-#{$font};
+            @extend %header-sm-#{$font};
+        }
+
+        .header-sm-#{$font} {
+            @extend %header-sm-#{$font};
+        }
+
+        .header-md-#{$font} {
+            @extend %header-#{$font};
+        }
+    }
+}
+
+@include headers;
+
+  // --------- FONT-TYPE ---------
+@media (min-width: $MIN-WIDTH-TABLET) {
+  %font-type-b1 {
+    font-weight: $font-weight-medium;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  %font-type-b2 {
+    font-weight: $font-weight-bold;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  %font-type-b3 {
+    font-weight: $font-weight-bold;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  %font-type-b4 {
+    font-weight: $font-weight-normal;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  %font-type-b5 {
+    font-weight: $font-weight-medium;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  %font-type-b6 {
+    font-weight: $font-weight-medium;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  %font-type-b7 {
+    font-weight: $font-weight-normal;
+    font-size: 9px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: $MAX-WIDTH-MOBILE) {
+  %font-type-sm-b1 {
+    font-weight: $font-weight-medium;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  %font-type-sm-b2 {
+    font-weight: $font-weight-normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  %font-type-sm-b3 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  %font-type-sm-b4 {
+    font-weight: $font-weight-normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  %font-type-sm-b5 {
+    font-weight: $font-weight-normal;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  %font-type-sm-b6 {
+    font-weight: $font-weight-bold;
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  %font-type-sm-b7 {
+    font-weight: $font-weight-normal;
+    font-size: 9px;
+    line-height: 16px;
+  }
+}
+@mixin fonts {
+    @for $font from 1 through 7 {
+        .font-type-b#{$font} {
+            @extend %font-type-b#{$font};
+            @extend %font-type-sm-b#{$font};
+        }
+
+        .font-type-sm-b#{$font} {
+            @extend %font-type-sm-b#{$font};
+        }
+
+        .font-type-md-b#{$font} {
+            @extend %font-type-b#{$font};
+        }
+    }
+}
+
+@include fonts;
+//----------------------
+@media (min-width: $MIN-WIDTH-PC) {
+    %font-button {
+        font-weight: $font-weight-bold;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: $MAX-WIDTH-MOBILE) {
+    %font-sm-button {
+        font-weight: $font-weight-bold;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.font-button {
+    @extend %font-button;
+    @extend %font-sm-button
+}
+
+.font-sm-button {
+    @extend %font-sm-button;
+}
+
+.font-md-button {
+    @extend %font-button;
+}
+
+.font-button2 {
+    font-weight: $font-weight-medium;
+    font-size: 22px;
+    line-height: 32px;
+}

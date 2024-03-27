@@ -1,0 +1,497 @@
+{
+  "errors": {
+    "engine": "Entschuldigung, es scheint ein Fehler aufgetreten zu sein.",
+    "refresh": "Seite neu laden"
+  },
+  "topBar": {
+    "menu": {
+      "aboutPlatform": "über metasu_",
+      "library": "Bibliothek",
+      "fa": "Lehrpläne",
+      "de": "DE",
+      "en": "ENG",
+      "srOnly": {
+        "langLabel": "Sprache ändern",
+        "en": "English",
+        "de": "Deutsch"
+      }
+    }
+  },
+  "search": {
+    "header": "Bildungsbibliothek",
+    "tip": "Zum passenden Material in nur drei Schritten!",
+    "showResults": "Ergebnisse anzeigen",
+    "clean": "Eingabe löschen",
+    "selectNoData": "Keine Ergebnisse gefunden",
+    "subject": "Fach*",
+    "subjectPlaceholder": "Fach auswählen",
+    "search": "Suche",
+    "searchPlaceholder": "Geben Sie hier ein",
+    "results": "Ergebnisse",
+    "result": "Ergebnisse",
+    "mostRelevant": "Relevanteste Sucheregbnisse",
+    "related": "Verwandte Suchergebnisse",
+    "showMore": "Mehr Ergebnisse anzeigen",
+    "subjects": {
+      "LANGUAGES": "Sprachen",
+      "STEM": "Mint",
+      "SOCIAL_SCIENCES": "Gesellschaftswissenschaften",
+      "ARTS": "Musische Fächer",
+      "ETHICS_PHILOSOPHY_RELIGION": "Ethik, Philosophie, Religion",
+      "SPORTS": "Sport",
+      "OTHERS": "Sonstiges",
+      "DEUTSCH": "Deutsch",
+      "DEUTSCH_ALS_ZWEITSPRACHE": "Deutsch als Zweitsprache",
+      "ENGLISCH": "Englisch",
+      "FRANZOSISCH": "Französisch",
+      "GRIECHISCH": "Griechisch",
+      "ITALIENISCH": "Italienisch",
+      "LATEIN": "Latein",
+      "RUSSISCH": "Russisch",
+      "SONSTIGE": "Sonstige",
+      "SPANISCH": "Spanisch",
+      "TURKISCH": "Türkisch",
+      "BIOLOGIE": "Biologie",
+      "CHEMIE": "Chemie",
+      "INFORMATIK_ITB": "Informatik/ITB",
+      "MATHEMATIK": "Mathematik",
+      "PHYSIK": "Physik",
+      "SACHUNTERRICHT": "Sachunterricht",
+      "UMWELT": "Umwelt",
+      "GEOGRAFIE": "Geografie",
+      "GESCHICHTE": "Geschichte",
+      "POLITISCHE_BILDUNG": "Politische Bildung",
+      "WIRTSCHAFTSKUNDE": "Wirtschaftskunde",
+      "BILDENDE_KUNST": "Bildende Kunst",
+      "MUSIK": "Musik",
+      "ETHIK": "Ethik",
+      "PHILOSOPHIE": "Philosophie",
+      "RELIGION": "Religion",
+      "SPORT": "Sport",
+      "ARBEITSLEHRE": "Arbeitslehre",
+      "BERUFLICHE_BILDUNG": "Berufliche Bildung",
+      "ELEMENTARBEREICH_VORSCHULERZIEHUNG": "Elementarbereich, Vorschulerziehung",
+      "FREIZEIT": "Freizeit",
+      "GESUNDHEIT": "Gesundheit",
+      "GRUNDSCHULE": "Grundschule",
+      "HEIMATRAUM_REGION": "Heimatraum, Region",
+      "INTERKULTURELLE_BILDUNG": "Interkulturelle Bildung",
+      "KINDER_UND_JUGENDBILDUNG": "Kinder- und Jugendbildung",
+      "MEDIENPADAGOGIK": "Medienpädagogik",
+      "PADAGOGIK": "Pädagogik",
+      "PRAXISORIENTIERTE_FACHER": "Praxisorientierte Fächer",
+      "PSYCHOLOGIE": "Psychologie",
+      "RETTEN_HELFEN_SCHUTZEN": "Retten, Helfen, Schützen",
+      "SPIEL_UND_DOKUMENTARFILM": "Spiel- und Dokumentarfilm",
+      "SUCHT_UND_PRAVENTION": "Sucht und Prävention",
+      "UBERGREIFENDE_THEMEN": "Übergreifende Themen",
+      "VERKEHRSERZIEHUNG": "Verkehrserziehung",
+      "WEITERBILDUNG": "Weiterbildung"
+    },
+    "learningResourceTypes": {
+      "ASSESSMENT_ITEM": "Aufgabe",
+      "LECTURE": "Lektüre",
+      "ASSESSMENT_INTERIM": "Leistungskontrolle",
+      "ASSESSMENT_RUBRIC": "Lehranweisung",
+      "ASSESSMENT_PREPARATION": "Testvorbereitung",
+      "COLLECTION_COURSE": "Kurs",
+      "COLLECTION_UNIT": "Lehreinheit",
+      "COLLECTION_CURRICULUM_GUIDE": "Lehrkonzept",
+      "COLLECTION_LESSON": "Schulstunde",
+      "GAME": "Spiel",
+      "ACTIVITY_WORKSHEET": "Übungarbeitsblatt",
+      "ACTIVITY_LEARNING": "Selbstlernerübungen",
+      "ACTIVITY_EXPERIMENT": "Experiment",
+      "LEXIKON": "Lexikon",
+      "KARTE": "Karte"
+    },
+    "schoolTypes": {
+      "GERMAN_SCHOOL_1": "Kindergarten",
+      "GERMAN_SCHOOL_2": "Vorschule",
+      "GERMAN_SCHOOL_3": "Grundschule",
+      "GERMAN_SCHOOL_4": "Förderschule Lernen",
+      "GERMAN_SCHOOL_5": "Hauptschule",
+      "GERMAN_SCHOOL_6": "Realschule",
+      "GERMAN_SCHOOL_7": "Gymnasium",
+      "GERMAN_SCHOOL_8": "Integrierte Gesamtschule",
+      "GERMAN_SCHOOL_9": "Gymnasiale Oberstufe",
+      "GERMAN_SCHOOL_10": "Fachoberschule",
+      "GERMAN_SCHOOL_11": "Berufsschule",
+      "GERMAN_SCHOOL_12": "Förderschule emotionale und soziale Entwicklung",
+      "GERMAN_SCHOOL_13": "Förderschule geistige Entwicklung",
+      "GERMAN_SCHOOL_14": "Förderschule Sprache"
+    },
+    "studyYears": {
+      "YEAR_1": "1",
+      "YEAR_2": "2",
+      "YEAR_3": "3",
+      "YEAR_4": "4",
+      "YEAR_5": "5",
+      "YEAR_6": "6",
+      "YEAR_7": "7",
+      "YEAR_8": "8",
+      "YEAR_9": "9",
+      "YEAR_10": "10",
+      "YEAR_11": "11",
+      "YEAR_12": "12",
+      "YEAR_13": "13"
+    },
+    "mediaTypes": {
+      "INTERACTIVE_ANIMATION": "Animation",
+      "INTERACTIVE_SIMULATION": "Simulation",
+      "INTERACTIVE_WHITEBOARD": "Whiteboardmaterial",
+      "MEDIA_AUDIO": "Audiomaterial",
+      "MEDIA_IMAGES_VISUALS": "Bildmaterial",
+      "MEDIA_VIDEO": "Videomaterial",
+      "TEXT_BOOK": "Buch",
+      "TEXT_CHAPTER": "Buchkapitel",
+      "TEXT_DOCUMENT": "Dokument",
+      "TEXT_PASSAGE": "Textauszug",
+      "TEXT_REFERENCE": "Nachschlagwerk",
+      "TEXT_WEBSITE": "URL"
+    },
+    "federalStates": {
+      "BADEN_WURTEMBERG": "Baden-Württemberg",
+      "BAYERN": "Bayern",
+      "BERLIN": "Berlin",
+      "BRANDENBURG": "Brandenburg",
+      "BREMEN": "Bremen",
+      "HAMBURG": "Hamburg",
+      "HESSEN": "Hessen",
+      "MECKLENBURG_VORPOMMERN": "Mecklenburg-Vorpommern",
+      "NIEDERSACHSEN": "Niedersachsen",
+      "NORDRHEIN_WESTFALEN": "Nordrhein-Westfalen",
+      "RHEINLAND_PFALZ": "Rheinland-Pfalz",
+      "SAARLAND": "Saarland",
+      "SACHSEN": "Sachsen",
+      "SACHSEN_ANHALT": "Sachsen-Anhalt",
+      "SCHLESWIG_HOLSTEIN": "Schleswig-Holstein",
+      "THURINGEN": "Thüringen"
+    },
+    "differentiations": {
+      "DIFFERENTIATED": "Differenzierend",
+      "NOT_DIFFERENTIATED": "Nicht differenzierend"
+    },
+    "grades": {
+      "GRADE_1": "4. Klasse",
+      "GRADE_2": "5. Klasse",
+      "GRADE_3": "6. Klasse",
+      "GRADE_4": "7. Klasse",
+      "GRADE_5": "8. Klasse",
+      "GRADE_6": "9. Klasse",
+      "GRADE_7": "10. Klasse",
+      "GRADE_8": "1. Lernjahr",
+      "GRADE_9": "2. Lernjahr"
+    },
+    "schoolBooks": {
+      "SCHOOL_BOOK_1": "Access",
+      "SCHOOL_BOOK_2": "À Plus Neue Ausgabe",
+      "SCHOOL_BOOK_3": "À toi Neue Ausgabe",
+      "SCHOOL_BOOK_4": "Förderschule Lernen",
+      "SCHOOL_BOOK_5": "Biosphäre",
+      "SCHOOL_BOOK_6": "Chemie Fokus",
+      "SCHOOL_BOOK_7": "Deutschbuch GYM",
+      "SCHOOL_BOOK_8": "Deutschbuch MSF",
+      "SCHOOL_BOOK_9": "DoppelKlick",
+      "SCHOOL_BOOK_10": "Dreifach Mathe",
+      "SCHOOL_BOOK_11": "D wie Deutsch",
+      "SCHOOL_BOOK_12": "Forum Geschichte",
+      "SCHOOL_BOOK_13": "Fundamente der Mathematik",
+      "SCHOOL_BOOK_14": "Headlight",
+      "SCHOOL_BOOK_15": "Highlight",
+      "SCHOOL_BOOK_16": "Lehrwerksunabhängig",
+      "SCHOOL_BOOK_17": "Lighthouse",
+      "SCHOOL_BOOK_18": "Muttersprache plus",
+      "SCHOOL_BOOK_19": "Parallelo",
+      "SCHOOL_BOOK_20": "Parallelo Basis",
+      "SCHOOL_BOOK_21": "Physik Universum"
+    },
+    "adv": {
+      "goToStdSearch": "Zurück zur Standardsuche",
+      "keywords": "Suche",
+      "schoolType": "Schulform",
+      "schoolTypePlaceholder": "Wählen",
+      "studyYear": "Schuljahr",
+      "studyYearPlaceholder": "Wählen",
+      "mediaType": "Medientyp",
+      "mediaTypePlaceholder": "Zeige alles",
+      "typeOfMaterial": "Art des Materials",
+      "typeOfMaterialPlaceholder": "Übung"
+    },
+    "std": {
+      "header": "Herzlich willkommen zur Bildungssuche!",
+      "text": "Du befindest Dich auf der Suchseite der Bildungssuche der digitalen Vernetzungsinfrastruktur Bildung. Gib an, für welches Fach Du etwas suchst und füge ein paar Schlagwörter hinzu. Nach klicken auf »Ergebnisse anzeigen« gelangst Du auf die Ergebnisseite.",
+      "goToAdvSearch": "Hier geht es zuer erweiterten Suche"
+    },
+    "filters": {
+      "button": "Filter",
+      "type": "Type",
+      "saveFilters": "Filter anwenden",
+      "sortBy": "Sortieren nach",
+      "schoolType": "Schulform",
+      "studyYear": "Jahrgangsstufe",
+      "publisher": "Anbieter",
+      "grade": "Klassenstufe",
+      "differentiation": "Differenzierend",
+      "schoolBook": "Lehrwerk",
+      "federalState": "Bundesland",
+      "clearAll": "Alles löschen",
+      "sortTypes": {
+        "alphabetic": "A-Z",
+        "mostViewed": "Am häufigsten angeschaut",
+        "newest": "Zuletzt aktualisiert",
+        "oldest": "Ältestes Material zuerst"
+      }
+    },
+    "bubbles": {
+      "all": "Alle Arten",
+      "document": "Dokumente",
+      "image": "Fotos",
+      "audio": "Audiodateien",
+      "video": "Video"
+    },
+    "subjectRequired": "Pflichteingabe ",
+    "savedResults": "Gespeicherte Resultate",
+    "of": "of",
+    "suggestions": "Empfehlungen",
+    "lastViewed": "Zuletzt angeschaut"
+  },
+  "library": {
+    "news": "Interessante Neuigkeiten für Lehrer:Innen und Schüler:Innen",
+    "showMoreNews": "weitere Nachrichten anzeigen",
+    "articles": "Weitere Beiträge",
+    "nextSlide": "Nächste Artikel",
+    "prevSlide": "Vorhergehender Artikel"
+  },
+  "about": {
+    "header": "Ein Ort für alle Bildugsangebote",
+    "message": "In der digitalen Vernetzungsinfrastruktur Bildung ist die Suche der zentrale Einstiegspunkt für alle Lehrende und Lernende, um passgenaue Lehr- und Lernangebote entlang der Vorgaben der Kultusministerien aufzufinden und beziehen zu können. Hier werden alle digitalen Angebote, ob OER, kuratiert. adaptiv, Video, Audio oder einfach nur ein gutes Arbeitsblatt, zentral zugänglich gemacht.",
+    "startButton": "Jetzt starten",
+    "aboutTheProject": "Über das Projekt",
+    "tiles": {
+      "0": {
+        "text": "Mit der Nationalen Bildungsplattform als Meta-Plattform vernetzter digitaler Bildungsangebote soll ein technisches und regulatives Ökosystem bereitgestellt werden, das einen Rahmen für eine leistungsfähige, interoperable Lehr-Lern-Infrastruktur und die darauf aufbauenden Funktionalitäten und Services schafft."
+      },
+      "1": {
+        "text": "Hierzu werden unter Nutzung etablierter Standards und Werkzeuge bestehende und innovative neue Angebote vernetzt. Für ein individuell pass fähiges, flexibles und anschlussfähiges Lernen in der digitalen Welt."
+      }
+    },
+    "ourSources": "Unsere Quellen",
+    "findMore": "Finde das passende Material in nur drei Schritten!",
+    "numbers": {
+      "place": "Fundstelle",
+      "materials": "Materials",
+      "publishers": "Anbieter"
+    }
+  },
+  "footer": {
+    "text": "Die Vernetzungsinfrastruktur Bildung ist ein Projekt des Bundesministeriums für Bildung und Forschung",
+    "links": {
+      "about": "Über das Projekt",
+      "sources": "Unsere Inhalteanbieter",
+      "help": "Hilfe / FAQ",
+      "contact": "Kontakt",
+      "tos": "Allgemeine Geschäftsbedingungen"
+    }
+  },
+  "matPreview": {
+    "back": "Zurück zu den Suchergebnissen",
+    "description": {
+      "tab": "Beschreibung",
+      "publisher": "Anbieter",
+      "shareMaterial": "Ergebnis teilen",
+      "goToPublisher": "Zum Anbieter"
+    },
+    "preview": {
+      "tab": "Vorschau",
+      "avFreeContent": "Produktübersicht",
+      "modules": "Verfügbare Materialien im Produkt:",
+      "hintLine1": "Mehr Materialien und Produkte",
+      "hintLine2": "findest Du beim Anbieter",
+      "structure": "Struktur des Gesamtproduktes",
+      "avPreviewsForBook": "Inhalte im Produkt"
+    },
+    "details": {
+      "tab": "Details"
+    }
+  },
+  "publisher": {
+    "goToSite": "Zur Anbieterseite",
+    "backToMaterial": "Zurück zum ",
+    "goToMaterials": "Zu den Materialien",
+    "description": "Beschreibung",
+    "since": "Bestehend seit",
+    "search": {
+      "backToPublisher": "Zurück zum Anbieter",
+      "allAvMaterialsBy": "Alle verfügbaren Materialien"
+    }
+  },
+  "rating": {
+    "header": "Bewertung des Materials",
+    "edit": "Bearbiten",
+    "previewComponent": {
+      "ratings": "Bewertung",
+      "rating": "Bewertung"
+    },
+    "emptyRatingError": "Bewerte das Material",
+    "ratings": "Bewertungen",
+    "rating": "Bewertung",
+    "comments": "Kommentare",
+    "comment": "Kommentar",
+    "commentRating": "Bewertungen:",
+    "emptyComment": "Bewertung ohne Kommentar",
+    "commentMore": "more",
+    "allStars": "Alle Sterne",
+    "showResults": "Ergebnisse anzeigen",
+    "cancel": "Abbrechen",
+    "sortBy": {
+      "label": "Sotierkriterium",
+      "ratingLabel": "Bewertung",
+      "date": {
+        "newest": "Neuestes",
+        "oldest": "Ältestes"
+      },
+      "rating": {
+        "5stars": "5 Sterne",
+        "4stars": "4 Sterne",
+        "3stars": "3 Sterne",
+        "2stars": "2 Sterne",
+        "1star": "1 Stern"
+      }
+    },
+    "labels": {
+      "rate1of5": "Bewerte 1 von 5",
+      "rate2of5": "Bewerte 2 von 5",
+      "rate3of5": "Bewerte 3 von 5",
+      "rate4of5": "Bewerte 4 von 5",
+      "rate5of5": "Bewerte 5 von 5"
+    },
+    "voting": {
+      "header": "Danke für Deine Bewertung!",
+      "editHeader": "Bearbeite Deine Bewertung",
+      "subheader": "Bewerte das Material:",
+      "editSubheader": "Material:",
+      "addComment": "Füge einen Kommentar hinzu",
+      "commentPlaceholder": "Diese Buch ist hervorragend!",
+      "rate": "Bewerten",
+      "save": "Speichern",
+      "delete": "Option löschen"
+    }
+  },
+  "admin": {
+    "login": {
+      "username": "mutzername",
+      "password": "passwort",
+      "error": "Falscher Nutzername und / oder Passwort",
+      "loginButton": "Anmeldung"
+    },
+    "articles": {
+      "delete": {
+        "confirm": "Ja",
+        "cancel": "Abbrechen"
+      },
+      "form": {
+        "add": "Hinzufügen",
+        "save": "Speichern",
+        "cancel": "Abbrechen"
+      },
+      "header": "Artikel",
+      "edit": "Bearbeiten",
+      "remove": "Entfernen",
+      "addNewArticle": "Neue hinzufügen",
+      "dragTitle": "Passen Sie Ihr Foto an",
+      "imagePreview": "Bildvorschau",
+      "editArticle": "Artikel bearbeiten",
+      "addArticle": "Artikel hinzufügen"
+    },
+    "news": {
+      "delete": {
+        "confirm": "Ja",
+        "cancel": "Abbrechen"
+      },
+      "labels": {
+        "titleEn": "ENGLISCH",
+        "titleDe": "DEUTSCH",
+        "title": "Titel",
+        "srOnlyPreview": "Vorschau zeigen",
+        "url": "URL",
+        "urlPlaceholder": "http://www.example.com"
+      },
+      "form": {
+        "add": "Hinzufügen",
+        "save": "Speichern",
+        "cancel": "Abbrechen"
+      },
+      "header": "Nachricht",
+      "edit": "Bearbeiten",
+      "remove": "Entfernen",
+      "addNewNews": "Neue hinzufügen",
+      "editNews": "Nachrichten bearbeiten",
+      "addNews": "Neue hinzufügen"
+    },
+    "providers": {
+      "delete": {
+        "prompt": "Bist Du sicher, dass Du den Anbieter löschen willst?",
+        "confirm": "Ja",
+        "cancel": "Abbrechen"
+      },
+      "labels": {
+        "name": "Name",
+        "namePlaceholder": "Name (intern)",
+        "title": "Titel",
+        "siteUrl": "URL der Webseite",
+        "searchUrl": "Such URL der Webseite",
+        "status": "Status"
+      },
+      "form": {
+        "activate": "Aktivierung",
+        "add": "Hinzufügen",
+        "save": "Speichern",
+        "cancel": "Abbrechen"
+      },
+      "status": {
+        "pending": "Ausstehend",
+        "active": "Aktiv"
+      },
+      "publishers": "Anbieter",
+      "edit": "Bearbeiten",
+      "remove": "Entfernen",
+      "filter": "Filter",
+      "addNewPublisher": "Neuen Anbieter hinzufügen"
+    },
+    "error": "Daten konnten nicht gespeichert werden",
+    "success": "Daten gespeichert",
+    "noCredentials": "Du hast leider keine Rechte, um diese Seite anzuschauen"
+  },
+  "reviews": {
+    "header": "Bewertungen",
+    "yourRating": "Deine Bewertung",
+    "yourComment": "Dein Kommentar",
+    "ratingChanged": "Deine Bewertung wurde erfolgreich geändert",
+    "ratingDeleted": "Deine Bewertung wurde erfolgreich gelöscht"
+  },
+  "profile": {
+    "header": "Mein Profil",
+    "tabs": {
+      "settings": "Einstellungen",
+      "favorites": "Favoriten",
+      "reviews": "Bewertungen"
+    },
+    "backToProfile": "Zurück zu meinem Profil",
+    "favorites": {
+      "header": "Meine Favoriten"
+    }
+  },
+  "srOnly": {
+      "fetchingResults": "Resultate werden abgefragt"
+  },
+  "validations": {
+    "required": "Erforderlich",
+    "url": "Ungültige URL"
+  },
+  "pagination": {
+    "nextPage": "Nächste Seite",
+    "prevPage": "Vorherige Seite",
+    "goToPage": "Gehe zur Seite "
+  }
+}

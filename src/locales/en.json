@@ -1,0 +1,611 @@
+{
+  "common": {
+    "removeTag": "remove tag"
+  },
+  "errors": {
+    "engine": "We're sorry. Search engine doesn't respond.",
+    "refresh": "REFRESH",
+    "error": "error",
+    "attachments": {
+      "common": "Couldn't upload file",
+      "fileSize": "The file size must be less than 15 mb",
+      "fileDimensions": "Image should have minimum resolution of",
+      "fileExtension": "The file must have one of the following extensions:"
+    }
+  },
+  "onboarding": {
+    "tiles": {
+      "favourites": {
+        "title": "Add to favourites",
+        "text": "Create your own library in one simple click by adding material to favourites. Want to save for later? Couldn’t be easier."
+      },
+      "share": {
+        "title": "Share your experience with others",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+      },
+      "history": {
+        "title": "Have your search history saved",
+        "text": "Fast and easy access to your previous search requests and materials. Fully personalized to your needs and experience!"
+      },
+      "createWallet": {
+        "title": "Create data wallet",
+        "text": "Create your <b>Mein Bildungsraum</b> data wallet to access the full version and all functionalities.",
+        "button": "Thanks"
+      },
+      "scan": {
+        "title": "Register in one click, as simple as it is",
+        "text": "<b>Scan this QR code</b> to access the full version and all functionalities. Your basic data would be required in order to save peronalized elements by Metasu",
+        "button1": "Maybe later",
+        "button2": "GREAT, I SCANNED!"
+      },
+      "success": {
+        "title": "Your registration succeed!",
+        "text": "Enjoy full version of ",
+        "button": "Thanks"
+      },
+      "error": {
+        "title": "Oops... Something went wrong!",
+        "text": "Try again later ",
+        "button": "Close"
+      }
+    },
+    "carusel": {
+      "later": "Maybe later",
+      "next": "Next"
+    },
+    "snackbar": {
+      "text": "Thanks for sharing your data. It will be used exclusively to give you access to full version. We are processing your data. Once it is confirmed will we let you know!",
+      "button": "CLOSE"
+    }
+  },
+  "topBar": {
+    "menu": {
+      "openProfileMenu": "open profile menu",
+      "userNamePlaceholder": "HELLO USER",
+      "openNavigationMenu": "open navigation menu",
+      "goToFavorites": "go to favourites",
+      "admin": "ADMIN",
+      "aboutPlatform": "ABOUT PLATFORM",
+      "library": "LIBRARY",
+      "fa": "FEDERAL CURRICULA",
+      "de": "DE",
+      "en": "ENG",
+      "goToProfile": "go to profile",
+      "login": "LOGIN",
+      "mobileHeader": "Login",
+      "logout": "LOG OUT",
+      "srOnly": {
+        "langLabel": "Change language",
+        "en": "English",
+        "de": "Deutsch"
+      }
+    },
+    "adminMenu": {
+      "news": "news",
+      "articles": "articles",
+      "publishers": "publishers"
+    }
+  },
+  "modal": {
+    "close": "close modal window"
+  },
+  "search": {
+    "header": "Education Library",
+    "tip": "Find any material just in 3 simple steps",
+    "showResults": "SHOW RESULTS",
+    "clean": "CLEAN",
+    "selectNoData": "No data",
+    "subject": "Subject*",
+    "subjectPlaceholder": "Choose",
+    "search": "Search",
+    "searchPlaceholder": "Type here",
+    "result": "result",
+    "results": "results",
+    "mostRelevant": "Most relevant",
+    "related": "Related",
+    "showMore": "SHOW MORE",
+    "subjects": {
+      "LANGUAGES": "Languages",
+      "STEM": "Stem",
+      "SOCIAL_SCIENCES": "Social sciences",
+      "ARTS": "Musical subjects",
+      "ETHICS_PHILOSOPHY_RELIGION": "Ethics, philosophy, religion",
+      "SPORTS": "Sports",
+      "OTHERS": "Others",
+      "DEUTSCH": "German",
+      "DEUTSCH_ALS_ZWEITSPRACHE": "German as second language",
+      "ENGLISCH": "English",
+      "FRANZOSISCH": "French",
+      "GRIECHISCH": "Greek",
+      "ITALIENISCH": "Italian",
+      "LATEIN": "Latin",
+      "RUSSISCH": "Russian",
+      "SONSTIGE": "Other",
+      "SPANISCH": "Spanish",
+      "TURKISCH": "Turkish",
+      "BIOLOGIE": "Biology",
+      "CHEMIE": "Chemistry",
+      "MATHEMATIK": "Mathematics",
+      "PHYSIK": "Physics",
+      "UMWELT": "Environment",
+      "GEOGRAFIE": "Geography",
+      "GESCHICHTE": "History",
+      "POLITISCHE_BILDUNG": "Political education",
+      "WIRTSCHAFTSKUNDE": "Economics",
+      "BILDENDE_KUNST": "Fine arts",
+      "MUSIK": "Music",
+      "ETHIK": "Ethics",
+      "PHILOSOPHIE": "Philosophy",
+      "RELIGION": "Religion",
+      "SPORT": "Sport",
+      "ARBEITSLEHRE": "Work theory",
+      "BERUFLICHE_BILDUNG": "Vocational education",
+      "ELEMENTARBEREICH_VORSCHULERZIEHUNG": "Elementary education, preschool education",
+      "FREIZEIT": "Spare time",
+      "GESUNDHEIT": "Health",
+      "GRUNDSCHULE": "Primary school",
+      "HEIMATRAUM_REGION": "Home area, region",
+      "INTERKULTURELLE_BILDUNG": "Intercultural education",
+      "KINDER_UND_JUGENDBILDUNG": "Children and youth education",
+      "MEDIENPADAGOGIK": "Media education",
+      "PADAGOGIK": "Pedagogy",
+      "PRAXISORIENTIERTE_FACHER": "Practice-oriented subjects",
+      "PSYCHOLOGIE": "Psychology",
+      "RETTEN_HELFEN_SCHUTZEN": "Save, help, protect",
+      "SPIEL_UND_DOKUMENTARFILM": "Feature and documentary films",
+      "SUCHT_UND_PRAVENTION": "Addiction and prevention",
+      "UBERGREIFENDE_THEMEN": "Overarching themes",
+      "VERKEHRSERZIEHUNG": "Traffic education",
+      "WEITERBILDUNG": "Continuing education"
+  },
+  "studyYears": {
+      "YEAR_1": "1",
+      "YEAR_2": "2",
+      "YEAR_3": "3",
+      "YEAR_4": "4",
+      "YEAR_5": "5",
+      "YEAR_6": "6",
+      "YEAR_7": "7",
+      "YEAR_8": "8",
+      "YEAR_9": "9",
+      "YEAR_10": "10",
+      "YEAR_11": "11",
+      "YEAR_12": "12",
+      "YEAR_13": "13"
+  },
+  "mediaTypes": {
+      "INTERACTIVE_ANIMATION": "Interactive/Animation",
+      "INTERACTIVE_SIMULATION": "Interactive/Simulation",
+      "INTERACTIVE_WHITEBOARD": "Interactive/Whiteboard",
+      "TEXT_BOOK": "Text/Book",
+      "TEXT_CHAPTER": "Text/Chapter",
+      "TEXT_DOCUMENT": "Text/Document",
+      "TEXT_PASSAGE": "Text/Passage",
+      "TEXT_REFERENCE": "Text/Reference",
+      "TEXT_WEBSITE": "Text/Website",
+      "MEDIA_AUDIO": "Media/Audio",
+      "MEDIA_IMAGES_VISUALS": "Media/Images/Visuals",
+      "MEDIA_VIDEO": "Media/Video"
+    },
+    "learningResourceTypes": {
+      "ASSESSMENT_ITEM": "Assessment/Item",
+      "LECTURE": "Lecture",
+      "ASSESSMENT_INTERIM": "Assessment/Interim",
+      "ASSESSMENT_RUBRIC": "Assessment/Rubric",
+      "ASSESSMENT_FORMATIVE": "Assessment/Formative",
+      "ASSESSMENT_PREPARATION": "Assessment/Preparation",
+      "COLLECTION_COURSE": "Collection/Course",
+      "COLLECTION_UNIT": "Collection/Unit",
+      "COLLECTION_CURRICULUM_GUIDE": "Collection/Curriculum Guide",
+      "COLLECTION_LESSON": "Collection/Lesson",
+      "GAME": "Game",
+      "ACTIVITY_WORKSHEET": "Activity/Worksheet",
+      "ACTIVITY_LEARNING": "Activity/Learning",
+      "ACTIVITY_EXPERIMENT": "Activity/Experiment",
+      "LEXIKON": "Encyclopedia",
+      "KARTE": "Map"
+    },
+    "federalStates": {
+      "BADEN_WURTEMBERG": "Baden-Württemberg",
+      "BAYERN": "Bayern",
+      "BERLIN": "Berlin",
+      "BRANDENBURG": "Brandenburg",
+      "BREMEN": "Bremen",
+      "HAMBURG": "Hamburg",
+      "HESSEN": "Hessen",
+      "MECKLENBURG_VORPOMMERN": "Mecklenburg-Vorpommern",
+      "NIEDERSACHSEN": "Niedersachsen",
+      "NORDRHEIN_WESTFALEN": "Nordrhein-Westfalen",
+      "RHEINLAND_PFALZ": "Rheinland-Pfalz",
+      "SAARLAND": "Saarland",
+      "SACHSEN": "Sachsen",
+      "SACHSEN_ANHALT": "Sachsen-Anhalt",
+      "SCHLESWIG_HOLSTEIN": "Schleswig-Holstein",
+      "THURINGEN": "Thüringen"
+    },
+    "differentiations": {
+      "DIFFERENTIATED": "Differentiated",
+      "NOT_DIFFERENTIATED": "Not differentiated"
+    },
+    "grades": {
+      "GRADE_1": "4th grade",
+      "GRADE_2": "5th grade",
+      "GRADE_3": "6th grade",
+      "GRADE_4": "7th grade",
+      "GRADE_5": "8th grade",
+      "GRADE_6": "9th grade",
+      "GRADE_7": "10th grade",
+      "GRADE_8": "1st year of learning",
+      "GRADE_9": "2nd year of learning"
+    },
+    "schoolBooks": {
+      "SCHOOL_BOOK_1": "Access",
+      "SCHOOL_BOOK_2": "À Plus Neue Ausgabe",
+      "SCHOOL_BOOK_3": "À toi Neue Ausgabe",
+      "SCHOOL_BOOK_4": "Förderschule Lernen",
+      "SCHOOL_BOOK_5": "Biosphäre",
+      "SCHOOL_BOOK_6": "Chemie Fokus",
+      "SCHOOL_BOOK_7": "Deutschbuch GYM",
+      "SCHOOL_BOOK_8": "Deutschbuch MSF",
+      "SCHOOL_BOOK_9": "DoppelKlick",
+      "SCHOOL_BOOK_10": "Dreifach Mathe",
+      "SCHOOL_BOOK_11": "D wie Deutsch",
+      "SCHOOL_BOOK_12": "Forum Geschichte",
+      "SCHOOL_BOOK_13": "Fundamente der Mathematik",
+      "SCHOOL_BOOK_14": "Headlight",
+      "SCHOOL_BOOK_15": "Highlight",
+      "SCHOOL_BOOK_16": "Lehrwerksunabhängig",
+      "SCHOOL_BOOK_17": "Lighthouse",
+      "SCHOOL_BOOK_18": "Muttersprache plus",
+      "SCHOOL_BOOK_19": "Parallelo",
+      "SCHOOL_BOOK_20": "Parallelo Basis",
+      "SCHOOL_BOOK_21": "Physik Universum"
+    },
+    "adv": {
+      "start": "Start",
+      "title": "Advanced search",
+      "goToStdSearch": "SWITCH TO STANDARD SEARCH",
+      "keywords": "Keywords",
+      "schoolType": "School type",
+      "schoolTypePlaceholder": "Choose",
+      "studyYear": "Study year",
+      "studyYearPlaceholder": "Choose",
+      "mediaType": "Media type",
+      "mediaTypePlaceholder": "Choose",
+      "typeOfMaterial": "Type of material",
+      "typeOfMaterialPlaceholder": "Choose"
+    },
+    "std": {
+      "header": "Welcome!",
+      "text": "One-line short intro and explanation the main purpose of the platform",
+      "goToAdvSearch": "TRY ADVANCED SEARCH ENGINE"
+    },
+    "filters": {
+      "button": "Filters",
+      "type": "Type",
+      "saveFilters": "SAVE FILTERS",
+      "sortBy": "Sort by",
+      "schoolType": "School type",
+      "studyYear": "Grade year",
+      "publisher": "Publisher",
+      "federalState": "Federal country",
+      "grade": "Grade",
+      "differentiation":" Differentiation",
+      "schoolBook":" Schoolbooks",
+      "clearAll": "CLEAR ALL",
+      "sortTypes": {
+        "alphabetic": "A-Z",
+        "mostViewed": "Most viewed",
+        "newest": "Newest",
+        "oldest": "Oldest"
+      },
+      "srOnly": {
+        "activate": "activate filter",
+        "deactivate": "deactivate filter"
+      }
+    },
+    "bubbles": {
+      "all": "All types",
+      "document": "Documents",
+      "image": "Photos",
+      "audio": "Audio",
+      "video": "Video",
+      "interactive": "Interactive"
+    },
+    "subjectRequired": "Field is required",
+    "savedResults": "saved results",
+    "of": "of",
+    "suggestions": "Suggestions",
+    "lastViewed": "Last viewed"
+  },
+  "library": {
+    "news": "Important News for the Students / Teachers",
+    "showMoreNews": "show more messages",
+    "articles": "Articles",
+    "nextSlide": "next slide",
+    "prevSlide": "previous slide"
+  },
+  "about": {
+    "header": "The one place with all materials",
+    "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "startButton": "START",
+    "aboutTheProject": "About the Project",
+    "tiles": {
+      "0": {
+        "text": "It happened! 19/12 this year in our thirteen Fourth grade students prepared a Senior Day, during which everyone had a great time. There were collectibles, there were kidnappings and funny lessons conducted by our dearest students."
+      },
+      "1": {
+        "text": "Polish language competition was held in our school, which was very popular among students. \"Reading is fashionable\", described the further fate of the heroes of school reading. We are pleased to inform you that the first place was taken by Paulina Kozłowska"
+      }
+    },
+    "ourSources": "Our Sources",
+    "findMore": "Find any material just in 3 simple steps ",
+    "numbers": {
+      "place": "Place",
+      "materials": "Materials",
+      "publishers": "Publishers"
+    }
+  },
+  "footer": {
+    "text": "National Edication Platform is goverment digital platform that lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet, consectetur",
+    "links": {
+      "about": "About the Project",
+      "sources": "Our sources",
+      "help": "Help / FAQs",
+      "contact": "Contact",
+      "tos": "Terms and Conditions"
+    }
+  },
+  "matPreview": {
+    "back": "BACK TO RESULTS",
+    "mediaType": "Type",
+    "description": {
+      "tab": "DESCRIPTION",
+      "publisher": "Publisher",
+      "shareMaterial": "SHARE MATERIAL",
+      "goToPublisher": "GO TO PUBLISHER"
+    },
+    "preview": {
+      "tab": "PREVIEW",
+      "avFreeContent": "Available Free Content",
+      "modules": "Modules",
+      "hintLine1": "For more materials and whole",
+      "hintLine2": "books go to publisher profile",
+      "structure": "Structure",
+      "avPreviewsForBook": "Available preview materials for this book"
+    },
+    "details": {
+      "tab": "DETAILS"
+    },
+    "favourites": {
+      "added": "Material added to favourites",
+      "removed": "Material removed from favourites"
+    },
+    "srOnly": {
+      "addFavorite": "add to favourites",
+      "removeFavorite": "remove favorite"
+    }
+  },
+  "publisher": {
+    "goToSite": "GO TO SITE",
+    "backToMaterial": "BACK TO MATERIAL",
+    "goToMaterials": "GO TO MATERIALS",
+    "description": "Description",
+    "since": "Since",
+    "search": {
+      "backToPublisher": "BACK TO PUBLISHER",
+      "allAvMaterialsBy": "All available materials by"
+    }
+  },
+  "rating": {
+    "header": "Rating about the material",
+    "edit": "Edit",
+    "previewComponent": {
+      "show": "show",
+      "ratings": "RATINGS",
+      "rating": "RATING",
+      "srOnly": {
+        "rate": "rate material"
+      }
+    },
+    "emptyRatingError": "Rate material first",
+    "ratings": "ratings",
+    "rating": "rating",
+    "comments": "comments",
+    "comment": "comment",
+    "commentMore": "more",
+    "commentRating": "Ratings:",
+    "emptyComment": "Rating without comment",
+    "allStars": "All stars",
+    "showResults": "SHOW RESULTS",
+    "cancel": "CANCEL",
+    "sortBy": {
+      "label": "Sort by",
+      "ratingLabel": "Rating",
+      "date": {
+        "newest": "Newest",
+        "oldest": "Oldest"
+      },
+      "rating": {
+        "5stars": "5 stars",
+        "4stars": "4 stars",
+        "3stars": "3 stars",
+        "2stars": "2 stars",
+        "1star": "1 star"
+      }
+    },
+    "labels": {
+      "rate1of5": "rate 1 of 5",
+      "rate2of5": "rate 2 of 5",
+      "rate3of5": "rate 3 of 5",
+      "rate4of5": "rate 4 of 5",
+      "rate5of5": "rate 5 of 5"
+    },
+    "voting": {
+      "header": "Thanks for your attention!",
+      "editHeader": "Edit your opinion",
+      "subheader": "Please rate the material:",
+      "editSubheader": "Material:",
+      "addComment": "Add Comment",
+      "commentPlaceholder": "This book is excellent!",
+      "rate": "RATE",
+      "save": "SAVE",
+      "delete": "DELETE OPINION"
+    }
+  },
+  "admin": {
+    "login": {
+      "username": "username",
+      "password": "password",
+      "error": "Wrong username and/or password",
+      "loginButton": "login"
+    },
+    "articles": {
+      "delete": {
+        "prompt": "Are you sure you want to remove article",
+        "confirm": "YES",
+        "cancel": "CANCEL"
+      },
+      "labels": {
+        "title": "Title",
+        "leadImgUrl": "Lead image URL",
+        "contentUrl": "Target URL",
+        "articleImage": "Article image",
+        "mobileAddFile": "add file",
+        "mobileNewFile": "new file"
+      },
+      "form": {
+        "add": "ADD",
+        "save": "SAVE",
+        "cancel": "CANCEL"
+      },
+      "header": "Articles",
+      "edit": "Edit",
+      "remove": "Remove",
+      "addNewArticle": "Add new",
+      "dragTitle": "Adjust your photo",
+      "imagePreview": "Image preview",
+      "editArticle": "Edit article",
+      "addArticle": "Add article"
+    },
+    "news": {
+      "delete": {
+        "title": "Are you sure?",
+        "prompt": "You are removing \"%{title}\" News, this action cannot be undone.",
+        "confirm": "DELETE",
+        "cancel": "BACK"
+      },
+      "labels": {
+        "titleEn": "ENGLISH",
+        "titleDe": "GERMAN",
+        "title": "Title",
+        "srOnlyPreview": "show preview",
+        "imageUrl": "Image URL",
+        "imageUrlPlaceholder": "url to external image",
+        "altText": "Alternate text",
+        "url": "URL",
+        "urlPlaceholder": "http://www.example.com"
+      },
+      "form": {
+        "add": "ADD",
+        "save": "SAVE",
+        "cancel": "CANCEL"
+      },
+      "header": "News",
+      "edit": "Edit",
+      "remove": "Remove",
+      "addNewNews": "Add New",
+      "limitInfo": "Max 300 characters (4 lines)",
+      "editNews": "Edit news",
+      "addNews": "Add news",
+      "srOnly": {
+        "bold": "bold",
+        "italic": "italic",
+        "link": "open link menu",
+        "unlink": "remove link"
+      }
+    },
+    "providers": {
+      "delete": {
+        "prompt": "Are you sure you want to remove publisher",
+        "confirm": "YES",
+        "cancel": "CANCEL"
+      },
+      "labels": {
+        "searchHere": "Search here",
+        "name": "Name",
+        "namePlaceholder": "name (internal)",
+        "title": "Title",
+        "siteUrl": "Site URL",
+        "searchUrl": "Search URL",
+        "status": "Status",
+        "logoImage": "Publisher Logo",
+        "mobileAddFile": "add file",
+        "mobileNewFile": "new file"
+      },
+      "form": {
+        "activate": "ACTIVATE",
+        "add": "ADD",
+        "save": "SAVE",
+        "cancel": "CANCEL"
+      },
+      "status": {
+        "pending": "Pending",
+        "active": "Active"
+      },
+      "publishers": "Publishers",
+      "edit": "Edit",
+      "remove": "Remove",
+      "filter": "Type here!",
+      "addNewPublisher": "Add new",
+      "editTitle": "Edit publisher",
+      "dragTitle": "Adjust your photo",
+      "collapseDetails": "collapse details",
+      "expandDetails": "expand details"
+    },
+    "noCredentials": "You cannot access this page",
+    "error": "Couldn't save the data",
+    "success": "Data saved"
+  },
+  "reviews": {
+    "header": "Reviews",
+    "yourRating": "YOUR RATING",
+    "yourComment": "YOUR COMMENT",
+    "ratingChanged": "Opinion changed successfully",
+    "ratingDeleted": "Opinion deleted successfully"
+  },
+  "profile": {
+    "header": "My Profile",
+    "tabs": {
+      "settings": "SETTINGS",
+      "favorites": "FAVOURITES",
+      "reviews": "REVIEWS"
+    },
+    "backToProfile": "BACK TO MY PROFILE",
+    "favorites": {
+      "header": "My favorites"
+    },
+    "settings": {
+      "personalInfo": "Personal info",
+      "firstName": "Name",
+      "lastName": "Surname",
+      "email": "E-mail address"
+    }
+  },
+  "validations": {
+    "required": "Required",
+    "url": "Invalid URL"
+  },
+  "srOnly": {
+    "fetchingResults": "fetching results",
+    "subject": "subject",
+    "subjects": "subjects",
+    "studyYear": "study year"
+  },
+  "pagination": {
+    "nextPage": "next page",
+    "prevPage": "previous page",
+    "goToPage": "go to page ",
+    "currentPage": "current page "
+  }
+}

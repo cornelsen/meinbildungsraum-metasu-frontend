@@ -1,0 +1,216 @@
+@import './_fonts.scss';
+@import './_colors.scss';
+@import './_margins.scss';
+@import './_typography.scss';
+@import './helpers.scss';
+@import '/node_modules/croppie/croppie.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Manrope', sans-serif;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.01em;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFFFF;
+}
+
+html { height: 100%; overflow: auto;}
+body { height: 100%; }
+
+*:not(input, .v-slider-thumb__surface, .circle) {
+  & {
+    border-radius: 0 !important;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #FFFFFF;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $color-primary-100;
+    }
+  }
+}
+
+.limited-width {
+  max-width: 1600px;
+  margin: 0 auto
+}
+
+*:focus-visible {
+  outline: $color-primary-100 solid 2px;
+  &.outline-w {
+    outline: #FFFFFF solid 2px;
+  }
+}
+
+.link:focus-visible {
+  outline: $color-primary-100 solid 2px;
+  &.outline-w {
+    outline: #FFFFFF solid 2px;
+  }
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+// --------- COLORS ----------
+.color-primary-100 { color: $color-primary-100; }
+.color-primary-80 { color: $color-primary-80; }
+.color-primary-30 { color: $color-primary-30; }
+.color-primary-20 { color: $color-primary-20; }
+.color-primary-5 { color: $color-primary-5; }
+.color-grey-1 { color: $color-grey-1; }
+.color-grey-3 { color: $color-grey-3; }
+.color-grey-4 { color: $color-grey-4; }
+.color-grey-5 { color: $color-grey-5; }
+.color-grey-7 { color: $color-grey-7; }
+.color-grey-8 { color: $color-grey-8; }
+.color-black { color: $color-black; }
+.color-error { color: $color-error }
+
+.big-star-1, .big-star-2,
+.big-star-3, .big-star-4 {
+  circle {
+    fill: #997823;
+  }
+  path.bg {
+    fill: #FFC83B;
+  }
+  path.face {
+    stroke: #997823;
+  }
+
+  &.inactive:not(:hover):not(.actv) circle {
+    fill: #B6C0CE;
+  }
+  &.inactive:not(:hover):not(.actv) path.bg {
+    fill: #E7EAEF;
+  }
+  &.inactive:not(:hover):not(.actv) path.face {
+    stroke: #B6C0CE;
+  }
+}
+
+.big-star-5 {
+  circle {
+    fill: #997823;
+  }
+  path.bg {
+    fill: #FFC83B;
+  }
+  path.face {
+    fill: #997823;
+  }
+
+  &.inactive:not(:hover):not(.actv) circle {
+    fill: #B6C0CE;
+  }
+  &.inactive:not(:hover):not(.actv) path.bg {
+    fill: #E7EAEF;
+  }
+  &.inactive:not(:hover):not(.actv) path.face {
+    fill: #B6C0CE;
+  }
+}
+
+
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  border: 2px solid $color-primary-60;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: url("data:image/svg+xml,%3Csvg width='16' height='15' viewBox='0 0 16 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 7.09957L6.37383 12.0896L15 1' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
+  width: 24px;
+  height: 24px;
+  transform: scale(0);
+  vertical-align: top;
+  border: 2px solid $color-primary-100;
+  transition: 100ms transform ease-in-out;
+  box-shadow: inset 24px 24px $color-primary-100;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
+  border: 1px solid $color-primary-100;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 100ms  transform ease-in-out;
+  box-shadow: inset 16px 16px $color-primary-100;;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.input-radio {
+  display: flex;
+  cursor: pointer;
+  @extend .header-7;
+  input[type="radio"] {
+    margin-right: 16px;
+  }
+}
+
+.input-radio + .input-radio {
+  margin-top: 32px;
+}
+
+
+.mt-80 { margin-top: 80px; }
+.mb-80 { margin-bottom: 80px; }
+
+.mt-160 { margin-top: 160px; }
+.mb-160 { margin-bottom: 160px; }
+
+.ml-i { margin-left: initial }
+
+
+@media (min-width: $MIN-WIDTH-PC) {
+  .pr-md-160 { padding-right: 160px }
+  .mt-md-80 { margin-top: 80px; }
+  .mb-md-80 { margin-bottom: 80px; }
+
+  .mt-md-160 { margin-top: 160px; }
+  .mb-md-160 { margin-bottom: 160px; }
+}
+
+@media (min-width: $MAX-WIDTH-MOBILE) {
+
+}
